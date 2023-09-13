@@ -4,6 +4,7 @@ import router from './router'
 import { createPinia } from 'pinia'
 import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
+import './index.css'
 
 loadFonts()
 const pinia = createPinia()
